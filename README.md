@@ -29,3 +29,12 @@ Stack
 wordpress:6.6-php8.2-apache
 mysql:8
 phpmyadmin/phpmyadmin
+
+## Tests
+Playwright tests ndodhen në folderin `e2e/`.
+
+Për t’i ekzekutuar:
+```bash
+cd e2e
+npm i
+npm run test:headed
